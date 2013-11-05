@@ -63,6 +63,7 @@
     </Compile>
     <Compile Include="..\Xamarin.Auth\OAuth1.cs">
       <Link>OAuth1.cs</Link>
+      <DependentUpon>FormAuthenticator.cs</DependentUpon>
     </Compile>
     <Compile Include="..\Xamarin.Auth\OAuth1Authenticator.cs">
       <Link>OAuth1Authenticator.cs</Link>
